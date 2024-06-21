@@ -5,6 +5,7 @@ import { FeatureSection } from "./components/featuresection/featuresection";
 import { Footer } from "./components/footer/footer";
 
 export default function Home() {
+
   return (
     <main className="font-poppins flex flex-col items-center min-h-screen w-[1450px] ph:w-dvw m-auto overflow-hidden">
       <Section_1/>
