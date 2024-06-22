@@ -5,7 +5,7 @@ export const Section_3 = () => {
 
     const CustomImage = ({ src }) => {
         return (
-            <Image src={src}  width={265} height={168} className="rounded-[14px] ph:rounded-md" lazy alt="Work Sample"/>
+            <Image src={src} width={265} height={168} className="rounded-[14px] ph:rounded-md" alt="Work Sample"/>
         )
     }
 
@@ -28,7 +28,7 @@ export const Section_3 = () => {
                     className="absolute top-1/2 -translate-y-1/2 left-4 flex justify-center items-center w-8 h-8 rounded-full bg-white
                     hover:bg-gray-50 active:bg-gray-100 transition-colors duration-150"
                     >
-                        <Image src="assets/section3/arrow-left.svg" width={6} height={10} alt="Arrow left Icon"/>
+                        <Image src="/assets/section3/arrow-left.svg" width={6} height={10} alt="Arrow left Icon"/>
                     </button>
                         <Image
                         src="/assets/section3/image1.png"
@@ -41,7 +41,7 @@ export const Section_3 = () => {
                     className="absolute top-1/2 -translate-y-1/2 right-4 flex justify-center items-center w-8 h-8 bg-white rounded-full
                     hover:bg-gray-50 active:bg-gray-100 transition-colors duration-150"
                     >
-                        <Image src="assets/section3/arrow-right.svg" width={6} height={10} alt="Arrow right Icon"/>
+                        <Image src="/assets/section3/arrow-right.svg" width={6} height={10} alt="Arrow right Icon"/>
                     </button>
                 </div>
                 <div className="grid grid-flow-col justify-between gap-1">

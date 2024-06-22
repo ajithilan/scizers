@@ -5,7 +5,7 @@ export const Section_2 = () => {
 
     return (
         <section className="flex flex-col gap-10 items-center pt-14 ph:px-4 ">
-            <Image src="assets/section2/vector.svg" width={180} height={78} alt="Vector svg"/>
+            <Image src="/assets/section2/vector.svg" width={180} height={78} alt="Vector svg"/>
             <div className="w-[780px] ph:w-fit flex flex-col gap-4 text-center">
                 <h2 className="font-oswald text-4xl ph:text-3xl text-custom-darkblue font-medium">FEATURES & AMENITIES</h2>
                 <p>
