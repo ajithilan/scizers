@@ -28,10 +28,10 @@ export const Section_3 = () => {
                     className="absolute top-1/2 -translate-y-1/2 left-4 flex justify-center items-center w-8 h-8 rounded-full bg-white
                     hover:bg-gray-50 active:bg-gray-100 transition-colors duration-150"
                     >
-                        <Image src="/assets/section3/arrow-left.svg" width={6} height={10} alt="Arrow left Icon"/>
+                        <Image src="/scizers/assets/section3/arrow-left.svg" width={6} height={10} alt="Arrow left Icon"/>
                     </button>
                         <Image
-                        src="/assets/section3/image1.webp"
+                        src="/scizers/assets/section3/image1.webp"
                         width={1122}
                         height={494}
                         className="rounded-[14px] ph:w-full ph:h-[222px] ph:rounded-md"
@@ -41,14 +41,14 @@ export const Section_3 = () => {
                     className="absolute top-1/2 -translate-y-1/2 right-4 flex justify-center items-center w-8 h-8 bg-white rounded-full
                     hover:bg-gray-50 active:bg-gray-100 transition-colors duration-150"
                     >
-                        <Image src="/assets/section3/arrow-right.svg" width={6} height={10} alt="Arrow right Icon"/>
+                        <Image src="/scizers/assets/section3/arrow-right.svg" width={6} height={10} alt="Arrow right Icon"/>
                     </button>
                 </div>
                 <div className="grid grid-flow-col justify-between gap-1">
-                    <CustomImage src="/assets/section3/image2.webp"/>
-                    <CustomImage src="/assets/section3/image3.webp"/>
-                    <CustomImage src="/assets/section3/image4.webp"/>
-                    <CustomImage src="/assets/section3/image5.webp"/>
+                    <CustomImage src="/scizers/assets/section3/image2.webp"/>
+                    <CustomImage src="/scizers/assets/section3/image3.webp"/>
+                    <CustomImage src="/scizers/assets/section3/image4.webp"/>
+                    <CustomImage src="/scizers/assets/section3/image5.webp"/>
                 </div>
             </div>
         </div>

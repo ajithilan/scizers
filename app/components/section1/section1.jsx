@@ -22,14 +22,14 @@ export const Section_1 = () => {
             <div className="absolute top-0 w-full h-full bg-header-linear ph:bg-header-linear-2"></div>
             <div className="w-[1120px] ph:w-11/12 flex flex-col">
                 <header className="w-full flex justify-between py-11 z-10">
-                    <Image src="/assets/section1/logo.svg" width={166} height={21} alt="Brand Logo" />
+                    <Image src="/scizers/assets/section1/logo.svg" width={166} height={21} alt="Brand Logo" />
                     <CustomButton
                     text="ENQUIRE NOW"
                     styling="ph:hidden border-2 border-custom-lightblue text-custom-lightblue hover:bg-[rgba(23,170,255,.7)] hover:border-transparent
                     active:bg-[rgba(23,170,255,.5)]"
                     />
                     <button className="hidden ph:block">
-                        <Image src="/assets/section1/hamburger-icon.svg" width={24} height={12} alt="Hamburget Icon"/>
+                        <Image src="/scizers/assets/section1/hamburger-icon.svg" width={24} height={12} alt="Hamburget Icon"/>
                     </button>
                 </header>
                 <div className="w-full flex justify-between ph:flex-col ph:items-center ph:gap-8 pt-20 pb-28 ph:pt-4 ph:pb-8 z-10">
