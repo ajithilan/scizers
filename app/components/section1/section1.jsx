@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { CustomButton } from "../commoncomponents/custombutton"
 
 export const Section_1 = () => {
@@ -21,13 +22,15 @@ export const Section_1 = () => {
             <div className="absolute top-0 w-full h-full bg-header-linear ph:bg-header-linear-2"></div>
             <div className="w-[1120px] ph:w-11/12 flex flex-col">
                 <header className="w-full flex justify-between py-11 z-10">
-                    <img src="assets/section1/logo.svg" alt="Brand Logo"/>
+                    <Image src="assets/section1/logo.svg" width={166} height={21} alt="Brand Logo" />
                     <CustomButton
                     text="ENQUIRE NOW"
                     styling="ph:hidden border-2 border-custom-lightblue text-custom-lightblue hover:bg-[rgba(23,170,255,.7)] hover:border-transparent
                     active:bg-[rgba(23,170,255,.5)]"
                     />
-                    <button className="hidden ph:block"><img src="assets/section1/hamburger-icon.svg" alt="Hamburget Icon"/></button>
+                    <button className="hidden ph:block">
+                        <Image src="assets/section1/hamburger-icon.svg" width={24} height={12} alt="Hamburget Icon"/>
+                    </button>
                 </header>
                 <div className="w-full flex justify-between ph:flex-col ph:items-center ph:gap-8 pt-20 pb-28 ph:pt-4 ph:pb-8 z-10">
                     <div className="w-[500px] ph:w-full grid">
@@ -51,7 +54,7 @@ export const Section_1 = () => {
                             />
                         </div>
                         <div className=" border-t-2 border-black border-opacity-30 px-8 py-2 text-[#98C5E8] text-[13px]">
-                            <span>Get an Expert's Presentation of Real Estate in Dubai for Life and investment</span>
+                            <span>Get an Expert&apos;s Presentation of Real Estate in Dubai for Life and investment</span>
                         </div>
                     </div>
                 </div>
