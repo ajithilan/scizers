@@ -31,7 +31,7 @@ export const Section_3 = () => {
                         <Image src="/assets/section3/arrow-left.svg" width={6} height={10} alt="Arrow left Icon"/>
                     </button>
                         <Image
-                        src="/assets/section3/image1.png"
+                        src="/assets/section3/image1.webp"
                         width={1122}
                         height={494}
                         className="rounded-[14px] ph:w-full ph:h-[222px] ph:rounded-md"
@@ -45,10 +45,10 @@ export const Section_3 = () => {
                     </button>
                 </div>
                 <div className="grid grid-flow-col justify-between gap-1">
-                    <CustomImage src="/assets/section3/image2.png"/>
-                    <CustomImage src="/assets/section3/image3.png"/>
-                    <CustomImage src="/assets/section3/image4.png"/>
-                    <CustomImage src="/assets/section3/image5.png"/>
+                    <CustomImage src="/assets/section3/image2.webp"/>
+                    <CustomImage src="/assets/section3/image3.webp"/>
+                    <CustomImage src="/assets/section3/image4.webp"/>
+                    <CustomImage src="/assets/section3/image5.webp"/>
                 </div>
             </div>
         </div>
